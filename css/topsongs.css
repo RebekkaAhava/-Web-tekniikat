@@ -1,0 +1,151 @@
+article {
+    padding: 10px;
+
+}
+
+body {
+    background-color: #130004;
+}
+
+.col {
+    max-width: 95%;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    min-height: 100px;
+    font-family: 'Short Stack', cursive;
+    color: white;
+}
+
+.container-fluid {
+    background-color: #91011E;
+}
+
+/* Navbar  */
+.navbar {
+    padding: 0;
+    font-size: large;
+    margin: auto;
+    border-bottom: 5px solid #720017;
+    font-family: 'Short Stack', cursive;
+}
+
+/* Navigation bar font */
+.navbar-light .navbar-nav .nav-link {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+ /* Accordin */
+ .accordion-item {
+     background-color: #130004;
+     border: 5px solid #91011E;
+ }
+
+ .accordion-collapse {
+    background-color: #720017;
+    color: white; 
+}
+
+ .accordion-button {
+    background-color: #130004;
+    color: #91011E;
+}
+
+.accordion-button:hover {
+    background-color: #91011E;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    color: blue;
+}
+
+.btn:hover {
+    background-color: #91011E;
+    color: white;
+    border-color:#720017;
+}
+.footer {
+    position: fixed;
+    background-color: #91011E;
+    max-height: 250px;
+    bottom: 0;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-top: 5px solid #720017;
+    min-height: 50px;
+}
+
+
+/*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/
+@media only screen and (max-width: 991px) {
+
+    article {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+        border: none;
+        margin: 0;
+        border-radius: 0px;
+        padding: 0;
+
+        
+    }
+
+    header {
+        padding-bottom: 95px;
+    }
+
+    #madeby {
+        margin-top: 0;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .navbar {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+    }
+
+    .navbar-collapse .nav-item {
+        margin-top: 5px;
+    }
+
+    .footer {
+        position: relative;
+        height: 100px;
+        bottom: 0;
+        
+        padding-top: 10px;
+        margin: 0;
+    }
+
+}
+
+
+/*MOBILE: Smallest screen responsivity adjustments */
+@media only screen and (max-width: 400px) {
+    #madeby {
+        margin-top: 0;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 0.7em;
+        position: relative;
+        
+    }
+}
