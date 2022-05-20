@@ -60,6 +60,10 @@ body {
     min-height: 50px;
 }
 
+.card {
+    background-color: #130004;
+}
+
 /*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/
 @media only screen and (max-width: 991px) {
 
