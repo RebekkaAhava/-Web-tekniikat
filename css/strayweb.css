@@ -39,6 +39,9 @@ body {
     font-size: x-large;
     color: white;
     text-align: center;
+    border-left: 3px solid #91011E;
+    background-color: #720017;
+    border-top-right-radius: 10px;
 }
  .accordion-item {
      background-color: #130004;

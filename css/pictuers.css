@@ -7,22 +7,13 @@ body {
     background-color: #130004;
 }
 
-.col {
-    max-width: 95%;
-    border: 5px solid #91011e;
-    background-color: #91011ec5;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    min-height: 200px;
-    font-family: 'Short Stack', cursive;
-    color: white;
-    text-align: center;
-}
 
 .container-fluid {
     background-color: #91011E;
+}
+
+.container > .row {
+    padding: 10px;
 }
 
 
@@ -39,6 +30,9 @@ body {
     font-size: x-large;
     color: white;
     text-align: center;
+    border-left: 3px solid #91011E;
+    background-color: #720017;
+    border-top-right-radius: 10px;
 }
 
  .footer {
@@ -56,10 +50,26 @@ body {
     min-height: 50px;
 }
 
-.img-fluid {
-    border-radius: 20px;
-    padding: 10px;
+img  {
+    border: 5px solid #720017;
 }
+
+.card-text:hover {
+    color: #130004;
+}
+
+.card {
+    background-color: #91011E;
+    color: white;
+    font-size: large;
+    border: 3px solid #720017;
+    padding: 10px;
+    font-family: 'Short Stack', cursive;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
 
 
 /*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/

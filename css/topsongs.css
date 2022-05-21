@@ -30,7 +30,6 @@ body {
     margin: auto;
     border-bottom: 5px solid #720017;
     font-family: 'Short Stack', cursive;
-    border: solid #720017;
 }
 
 /* Navigation bar font */
@@ -38,7 +37,9 @@ body {
     font-size: x-large;
     color: white;
     text-align: center;
-    border-left: 3px solid white;
+    border-left: 3px solid #91011E;
+    background-color: #720017;
+    border-top-right-radius: 10px;
 }
 
 
