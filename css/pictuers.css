@@ -5,7 +5,6 @@ article {
 
 body {
     background-color: #130004;
-    /*background-image: url('/images/back-to-school-6305092_960_720.jpg');*/
 }
 
 .col {
@@ -19,6 +18,7 @@ body {
     min-height: 200px;
     font-family: 'Short Stack', cursive;
     color: white;
+    text-align: center;
 }
 
 .container-fluid {
@@ -40,11 +40,7 @@ body {
     color: white;
     text-align: center;
 }
- .accordion-item {
-     background-color: #130004;
-     color: white;
- }
- 
+
  .footer {
     position: fixed;
     background-color: #91011E;
@@ -60,11 +56,18 @@ body {
     min-height: 50px;
 }
 
+.img-fluid {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
 /*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/
 @media only screen and (max-width: 991px) {
 
     article {
         width: 100%;
+        height: auto;
     }
 
     .container {
@@ -73,8 +76,6 @@ body {
         margin: 0;
         border-radius: 0px;
         padding: 0;
-
-        
     }
 
     header {
@@ -98,7 +99,7 @@ body {
     }
 
     .footer {
-        position: relative;
+        position: fixed;
         height: 100px;
         bottom: 0;
         
@@ -120,7 +121,9 @@ body {
 
     .footer {
         font-size: 0.7em;
-        position: relative;
+        position: fixed;
         
     }
+
+
 }

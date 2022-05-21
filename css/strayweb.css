@@ -4,8 +4,7 @@ article {
 }
 
 body {
-    background-color: #130004;
-    /*background-image: url('/images/back-to-school-6305092_960_720.jpg');*/
+    background-color:  #130004;
 }
 
 .col {
@@ -19,6 +18,7 @@ body {
     min-height: 100px;
     font-family: 'Short Stack', cursive;
     color: white;
+    text-align: center;
 }
 
 .container-fluid {
@@ -60,8 +60,13 @@ body {
     min-height: 50px;
 }
 
-.card {
-    background-color: #130004;
+img {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+h1 {
+    padding-top: 15px;
 }
 
 /*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/
@@ -100,6 +105,10 @@ body {
     .navbar-collapse .nav-item {
         margin-top: 5px;
     }
+    .footer {
+        font-size: 0.7em;
+        position: fixed;
+    }
 }
 
 /*MOBILE: Smallest screen responsivity adjustments */
@@ -112,7 +121,7 @@ body {
 
     .footer {
         font-size: 0.7em;
-        position: relative;
-        
+        position: fixed;
     }
+  
 }

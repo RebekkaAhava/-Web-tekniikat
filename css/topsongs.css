@@ -30,6 +30,7 @@ body {
     margin: auto;
     border-bottom: 5px solid #720017;
     font-family: 'Short Stack', cursive;
+    border: solid #720017;
 }
 
 /* Navigation bar font */
@@ -37,7 +38,9 @@ body {
     font-size: x-large;
     color: white;
     text-align: center;
+    border-left: 3px solid white;
 }
+
 
  /* Accordin */
  .accordion-item {
