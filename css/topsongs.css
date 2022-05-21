@@ -55,6 +55,7 @@ body {
     color: #91011E;
 }
 
+
 .accordion-button:hover {
     background-color: #91011E;
     color: white;
@@ -89,9 +90,7 @@ body {
 /*TABLET: Smaller screen responsivity adjustments if so decided. Max-width determined by bootstraps navbar settings*/
 @media only screen and (max-width: 991px) {
 
-    article {
-        width: 100%;
-    }
+
 
     .container {
         max-width: 100%;
@@ -124,7 +123,7 @@ body {
     }
 
     .footer {
-        position: relative;
+        position: fixed;
         height: 100px;
         bottom: 0;
         
@@ -145,7 +144,7 @@ body {
 
     .footer {
         font-size: 0.7em;
-        position: relative;
+        position: fixed;
         
     }
 }
