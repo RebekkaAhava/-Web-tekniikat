@@ -69,6 +69,17 @@ img  {
     border-radius: 20px;
 }
 
+button {
+    background-color: #91011E;
+    border: 3px solid #720017;
+    border-radius: 25px;
+    color: #720017;
+}
+button:active {
+    background-color: #91011E;
+    color: white;
+}
+
 
 
 
