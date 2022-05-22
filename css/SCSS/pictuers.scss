@@ -1,3 +1,8 @@
+$font-color: white;
+$hoveravtive-color: #130004;
+$border-color: #720017;
+$backround-color: #91011E;
+
 article {
     padding: 10px;
 }
@@ -8,7 +13,7 @@ body {
 
 
 .container-fluid {
-    background-color: #91011E;
+    background-color: $backround-color;
 }
 
 .container > .row {
@@ -20,14 +25,14 @@ body {
     padding: 0;
     font-size: large;
     margin: auto;
-    border-bottom: 5px solid #720017;
+    border-bottom: 5px solid $border-color;
     font-family: 'Short Stack', cursive;
 }
 
 /* Navigation bar font */
 .navbar-light .navbar-nav .nav-link {
     font-size: x-large;
-    color: white;
+    color: $font-color;
     text-align: center;
     border-left: 3px solid #91011E;
     background-color: #720017;
@@ -36,7 +41,7 @@ body {
 
  .footer {
     position: fixed;
-    background-color: #91011E;
+    background-color: $backround-color;
     max-height: 250px;
     bottom: 0;
     padding: 5px;
@@ -45,15 +50,15 @@ body {
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
-    border-top: 5px solid #720017;
+    border-top: 5px solid $border-color;
     min-height: 50px;
 }
 
 img ~ [class=card-body] {
     background-color: #720017;
-    color: white;
+    color: $font-color;
     font-size: large;
-    border: 3px solid #720017;
+    border: 3px solid $border-color;
     padding: 10px;
     font-family: 'Short Stack', cursive;
     text-align: center;
@@ -65,26 +70,26 @@ img ~ [class=card-body] {
 }
 
 .card-text:hover {
-    color: #130004;
+    color: $hoveravtive-color;
 }
 
 .card {
-    background-color: #91011E;
-    border: 3px solid #720017;
+    background-color: $backround-color;
+    border: 3px solid $border-color;
     padding: 10px;
     border-radius: 20px;
 }
 
 div + button {
-    background-color: #91011E;
-    border: 3px solid #720017;
+    background-color: $backround-color;
+    border: 3px solid $border-color;
     border-radius: 25px;
-    color: #130004;
+    color: $font-color;
     font-family: 'Short Stack', cursive;
 }
 button:active {
-    background-color: #91011E;
-    color: white;
+    background-color: $backround-color;
+    color: $hoveravtive-color;
 }
 
 
