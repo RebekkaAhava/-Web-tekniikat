@@ -1,6 +1,6 @@
 
 function booFunction() {
-    document.getElementById("boo").innerHTML="BOO!!!";
+    document.getElementById("boo").innerHTML="<p style='color: yellow'>BOO!!!</p>";
 }
 
 function deletefrogFunction () {
